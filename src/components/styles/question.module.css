@@ -1,0 +1,9 @@
+.question_container {
+  display: flex;
+}
+
+.question_number_container {
+  text-align: center;
+  background-color: var(--brand-color-1);
+  width: 60px;
+}
