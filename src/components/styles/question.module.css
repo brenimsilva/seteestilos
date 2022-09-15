@@ -7,3 +7,8 @@
   background-color: var(--brand-color-1);
   width: 60px;
 }
+
+.selected {
+  color: white;
+  background-color: var(--brand-color-2);
+}

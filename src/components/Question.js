@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./styles/question.module.css";
 
 export default function Question(props) {
   return (
-    <div className={style.question_container}>
+    <div>
       <div className={style.question_number_container}>
         <h3>{props.index + 1}</h3>
       </div>

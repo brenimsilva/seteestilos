@@ -1,9 +1,33 @@
-import React from "react";
-
+import React, { useState } from "react";
+import style from "../components/styles/question.module.css";
+import questionsJson from "./DATA/questions.json";
 export default function Choice(props) {
+  const [isSelected, setIsSelected] = useState(false);
+  function onSelect() {
+    props.onSelectChoice();
+    setIsSelected(true);
+  }
+  function onRemove() {
+    props.onRemoveChoice();
+    setIsSelected(false);
+  }
+
+  function toggleSelectRemove() {
+    if (isSelected) {
+      onRemove();
+    } else {
+      onSelect();
+    }
+  }
+
   return (
     <React.Fragment>
-      <li>
+      <li
+        className={`${style.question_container} ${
+          isSelected ? style.selected : ""
+        }`}
+        onClick={toggleSelectRemove}
+      >
         {props.text}: {props.type}
       </li>
     </React.Fragment>

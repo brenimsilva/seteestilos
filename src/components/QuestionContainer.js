@@ -10,7 +10,10 @@ export default function QuestionContainer() {
         return (
           <div key={index}>
             <Question index={index} text={question.question} key={index} />
-            <ChoicesList choices={question.answers} />
+            <ChoicesList
+              choices={question.answers}
+              maxChoices={question.answers.choices}
+            />
           </div>
         );
       })}
