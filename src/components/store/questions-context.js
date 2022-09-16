@@ -1,3 +1,3 @@
 import React, { createContext } from "react";
 
-const QuestionsContext = createContext({});
+export const QuestionsContext = createContext({});

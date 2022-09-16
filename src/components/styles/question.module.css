@@ -12,3 +12,10 @@
   color: white;
   background-color: var(--brand-color-2);
 }
+
+
+.choice_container {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+}

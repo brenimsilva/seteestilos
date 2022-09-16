@@ -2,7 +2,7 @@
   {
     "key": 1,
     "question": "Qual sua roupa preferida para momentos descontraídos?",
-    "choices": 1,
+    "choices": 2,
     "answers": [
       {
         "answer": "Adoro me sentir confortável com roupas leves e práticas.",
@@ -44,7 +44,7 @@
   {
     "key": 2,
     "question": "Como você se considera?",
-    "choices": 1,
+    "choices": 2,
     "answers": [
       {
         "answer": "Criativa - Exótica- Aventureira - Inovadora ",
@@ -86,7 +86,7 @@
   {
     "key": 3,
     "question": "Qual dessas maquiagens faz mais a sua cabeça?",
-    "choices": 1,
+    "choices": 2,
     "answers": [
       {
         "answer": "O mais natural possível.",
@@ -128,7 +128,7 @@
   {
     "key": 4,
     "question": "Marque a imagem que tem as cores e características com as quais você mais se identifica:",
-    "choices": 1,
+    "choices": 2,
     "answers": [
       {
         "answer": "Recebo mais elogios quando uso marinho, cinza e beje.",
@@ -170,7 +170,7 @@
   {
     "key": 5,
     "question": "Qual o seu programa preferido?",
-    "choices": 1,
+    "choices": 2,
     "answers": [
       {
         "answer": "Amo ir ao teatro ou a um restaurante luxuoso.",
@@ -212,7 +212,7 @@
   {
     "key": 6,
     "question": "Quais dos pretinhos básicos abaixo tem mais haver com você?",
-    "choices": 1,
+    "choices": 2,
     "answers": [
       {
         "answer": "Só porque é pretinho não precisa ser básico.",
@@ -254,7 +254,7 @@
   {
     "key": 7,
     "question": "Quais os tipos de acessórios que você se identifica?",
-    "choices": 1,
+    "choices": 2,
     "answers": [
       {
         "answer": "Jóias verdadeira e sofisticadas.",
@@ -291,7 +291,7 @@
   {
     "key": 8,
     "question": "Com qual desses looks você se sente melhor no trabalho?",
-    "choices": 1,
+    "choices": 2,
     "answers": [
       {
         "answer": "Roupas de boa qualidade, modelos clássicos e com cores neutras.",
@@ -355,7 +355,7 @@
   {
     "key": 10,
     "question": "Qual o estilo de sapato que você mais gosta?",
-    "choices": 1,
+    "choices": 2,
     "answers": [
       {
         "answer": "Sandálias de salto alto.",
@@ -397,7 +397,7 @@
   {
     "key": 11,
     "question": "Qual o seu estilo de decoração?",
-    "choices": 1,
+    "choices": 2,
     "answers": [
       {
         "answer": "Clássico",

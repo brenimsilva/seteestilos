@@ -15,7 +15,7 @@ export default function Choice(props) {
   function toggleSelectRemove() {
     if (isSelected) {
       onRemove();
-    } else {
+    } else if (props.selectedChoices < props.maxChoices){
       onSelect();
     }
   }
@@ -23,7 +23,7 @@ export default function Choice(props) {
   return (
     <React.Fragment>
       <li
-        className={`${style.question_container} ${
+        className={`${style.choice_container} ${
           isSelected ? style.selected : ""
         }`}
         onClick={toggleSelectRemove}

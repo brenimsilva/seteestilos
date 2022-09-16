@@ -23,8 +23,11 @@ export default function ChoicesList(props) {
               text={item.answer}
               type={item.type}
               key={index}
+              index={index}
+              maxChoices={props.maxChoices}
               onSelectChoice={onSelectChoice}
               onRemoveChoice={onRemoveChoice}
+              selectedChoices={choiceCount}
             />
           );
         })}
