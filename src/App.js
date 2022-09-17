@@ -4,11 +4,9 @@ import QuestionContainer from "./components/QuestionContainer";
 import QuestionsProvider from "./components/store/QuestionsProvider";
 function App() {
   return (
-    <QuestionsProvider>
-      <div className="App">
-        <QuestionContainer />
-      </div>
-    </QuestionsProvider>
+    <div className="App">
+      <QuestionContainer />
+    </div>
   );
 }
 

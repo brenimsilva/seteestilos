@@ -7,6 +7,7 @@ import questionsData from "../DATA/questions.json";
 const defaultState = {
   //question: 1,
   //maxVotes: 1,
+  tempVotes: [],
   votes: [
     { type: "Esportivo", count: 0 },
     { type: "Elegante", count: 0 },
@@ -18,21 +19,56 @@ const defaultState = {
   ],
 };
 function choiceReducer(state, action) {
-  let lowerActionArray = [];
-  action.votes.forEach((element) => {
-    lowerActionArray.push(element.toLowerCase());
-  });
+  //Setup
+  let newTempVotes = [];
+
   switch (action.type) {
-    case "ADD":
-      state.votes.forEach((element) => {
+    case "CONFIRM":
+      //CONFIRM SETUP
+      let lowerActionArray = [];
+      state.tempVotes.forEach((element) => {
+        lowerActionArray.push(element.toLowerCase());
+      });
+      const newState = { ...state };
+
+      //EXECUTION
+      newState.votes.forEach((element) => {
         if (lowerActionArray.includes(element.type.toLowerCase())) {
           element.count++;
+          console.log(`${element.type}: ${element.count}`);
         }
       });
-      console.log(state);
-      return {};
+
+      //FINALLY
+      console.log(newState);
+      state.tempVotes = [];
+      newTempVotes = [];
+      return { ...newState };
+
+    case "ADD":
+      //ADD SETUP
+      newTempVotes = state.tempVotes;
+
+      //EXECUTION
+      if (!newTempVotes.includes(action.vote)) {
+        newTempVotes.push(action.vote);
+      }
+      console.log(newTempVotes);
+
+      //FINALLY
+      return { ...state, tempVotes: newTempVotes };
+
     case "REMOVE":
-      return {};
+      //REMOVE SETUP
+      newTempVotes = state.tempVotes;
+      const index = newTempVotes.indexOf(action.vote);
+
+      //EXECUTION
+      newTempVotes.splice(index, 1);
+      console.log(newTempVotes);
+
+      //FINALLY
+      return { ...state, tempVotes: newTempVotes };
   }
 }
 
@@ -43,12 +79,21 @@ export default function QuestionsProvider(props) {
   );
 
   function addVotesToList(votes) {
-    dispatchChoices({ type: "ADD", votes: votes });
+    dispatchChoices({ type: "CONFIRM" });
   }
 
+  function addTempVotes(vote) {
+    dispatchChoices({ type: "ADD", vote: vote });
+  }
+
+  function removeTempVotes(vote) {
+    dispatchChoices({ type: "REMOVE", vote: vote });
+  }
   const questionsContext = {
     votes: choiceState.votes,
     addVotesToList,
+    addTempVotes,
+    removeTempVotes,
   };
   return (
     <QuestionsContext.Provider value={questionsContext}>

@@ -4,16 +4,31 @@ import Question from "./Question";
 import ChoicesList from "./ChoicesList";
 import Choice from "./Choice";
 import { QuestionsContext } from "./store/questions-context";
-export default function QuestionContainer() {
+function QuestionContainer() {
   const [votes, setVotes] = useState([]);
-  useEffect(() => {
-    setVotes(["Esportivo", "DRAMATICO", "sexy"]);
-  }, []);
+  const [count, setCounter] = useState(0);
 
   const { addVotesToList } = useContext(QuestionsContext);
+
   function onConfirmVotes() {
-    addVotesToList(votes);
+    addVotesToList();
   }
+
+  function onGetVotes(vote) {
+    if (!votes.includes(vote)) {
+      setVotes((prev) => {
+        return [...prev, vote];
+      });
+    }
+  }
+
+  function onRemoveVotes(vote) {
+    var index = votes.indexOf(vote);
+    setVotes((prev) => {
+      return prev.splice(index, 1);
+    });
+  }
+
   return (
     <div>
       {questions.map((question, index) => {
@@ -21,6 +36,8 @@ export default function QuestionContainer() {
           <div key={index}>
             <Question index={index} text={question.question} key={index} />
             <ChoicesList
+              onGetVotes={onGetVotes}
+              onRemoveVotes={onRemoveVotes}
               choices={question.answers}
               maxChoices={questions[index].choices}
             />
@@ -31,3 +48,5 @@ export default function QuestionContainer() {
     </div>
   );
 }
+
+export default QuestionContainer;

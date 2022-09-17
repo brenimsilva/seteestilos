@@ -1,13 +1,18 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import style from "../components/styles/question.module.css";
 import questionsJson from "./DATA/questions.json";
-export default function Choice(props) {
+import { QuestionsContext } from "./store/questions-context";
+function Choice(props) {
   const [isSelected, setIsSelected] = useState(false);
+  const { addTempVotes, removeTempVotes } = useContext(QuestionsContext);
+
   function onSelect() {
+    addTempVotes(props.type);
     props.onSelectChoice();
     setIsSelected(true);
   }
   function onRemove() {
+    removeTempVotes(props.type);
     props.onRemoveChoice();
     setIsSelected(false);
   }
@@ -15,7 +20,7 @@ export default function Choice(props) {
   function toggleSelectRemove() {
     if (isSelected) {
       onRemove();
-    } else if (props.selectedChoices < props.maxChoices){
+    } else if (props.selectedChoices < props.maxChoices) {
       onSelect();
     }
   }
@@ -33,3 +38,5 @@ export default function Choice(props) {
     </React.Fragment>
   );
 }
+
+export default Choice;
