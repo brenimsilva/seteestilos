@@ -9,66 +9,62 @@ const defaultState = {
   //maxVotes: 1,
   tempVotes: [],
   votes: [
-    { type: "Esportivo", count: 0 },
-    { type: "Elegante", count: 0 },
-    { type: "Dramatico", count: 0 },
-    { type: "Sexy", count: 0 },
-    { type: "Romantico", count: 0 },
-    { type: "Criativo", count: 0 },
-    { type: "Tradicional", count: 0 },
+    { type: "ESPORTIVO", count: 0 },
+    { type: "ELEGANTE", count: 0 },
+    { type: "DRAMATICO", count: 0 },
+    { type: "SEXY", count: 0 },
+    { type: "ROMANTICO", count: 0 },
+    { type: "CRIATIVO", count: 0 },
+    { type: "TRADICIONAL", count: 0 },
   ],
 };
 function choiceReducer(state, action) {
-  //Setup
-  let newTempVotes = [];
-
   switch (action.type) {
     case "CONFIRM":
       //CONFIRM SETUP
-      let lowerActionArray = [];
-      state.tempVotes.forEach((element) => {
-        lowerActionArray.push(element.toLowerCase());
-      });
-      const newState = { ...state };
-
       //EXECUTION
-      newState.votes.forEach((element) => {
-        if (lowerActionArray.includes(element.type.toLowerCase())) {
-          element.count++;
-          console.log(`${element.type}: ${element.count}`);
-        }
-      });
-
+      const totalCount = state.votes.reduce((acumulador, curr, index, arr) => {
+        const atual = arr[index].count + 1;
+        state.tempVotes.forEach((element) => {
+          if (element.type === curr.type) {
+            acumulador[index] = {
+              type: acumulador[index].type,
+              count: atual,
+            };
+          }
+        });
+        return acumulador;
+      }, state.votes);
       //FINALLY
-      console.log(newState);
-      state.tempVotes = [];
-      newTempVotes = [];
-      return { ...newState };
+      console.log(totalCount);
+      return { ...state, tempVotes: [], votes: [...totalCount] };
 
     case "ADD":
       //ADD SETUP
-      newTempVotes = state.tempVotes;
+      const tempVotes = state.tempVotes;
 
       //EXECUTION
-      if (!newTempVotes.includes(action.vote)) {
-        newTempVotes.push(action.vote);
+      if (!tempVotes.includes(action.vote)) {
+        const newTempVotes = [...tempVotes, { type: action.vote, count: 0 }];
+        console.log(newTempVotes);
+        return { ...state, tempVotes: newTempVotes };
       }
-      console.log(newTempVotes);
+      return { ...state };
 
-      //FINALLY
-      return { ...state, tempVotes: newTempVotes };
+    //FINALLY
 
     case "REMOVE":
       //REMOVE SETUP
-      newTempVotes = state.tempVotes;
-      const index = newTempVotes.indexOf(action.vote);
+      const oldTempVotes = state.tempVotes;
 
       //EXECUTION
-      newTempVotes.splice(index, 1);
-      console.log(newTempVotes);
+      const newList = oldTempVotes.filter((value) => {
+        return value.type !== action.vote;
+      });
+      console.log(newList);
 
       //FINALLY
-      return { ...state, tempVotes: newTempVotes };
+      return { ...state, tempVotes: newList };
   }
 }
 
@@ -78,7 +74,7 @@ export default function QuestionsProvider(props) {
     defaultState
   );
 
-  function addVotesToList(votes) {
+  function addVotesToList() {
     dispatchChoices({ type: "CONFIRM" });
   }
 
