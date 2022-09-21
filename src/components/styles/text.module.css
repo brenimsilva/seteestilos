@@ -1,0 +1,28 @@
+.title {
+  color: var(--brand-color-3);
+}
+
+.text {
+  color: #333;
+}
+
+.button {
+  border: none;
+  padding: 10px;
+  background-color: var(--brand-color-1);
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ab4131c4;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-image: url();
+}
