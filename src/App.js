@@ -5,20 +5,12 @@ import QuestionsProvider from "./components/store/QuestionsProvider";
 import Question from "./components/Question";
 import { useState } from "react";
 import Choice from "./components/Choice";
+import LandingPage from "./components/landing/LandingPage";
 function App() {
-  const [windowVisible, setWindowVisible] = useState([
-    <Question key={1} index={1} text="pergunta" />,
-    <Choice text="ola" />,
-  ]);
-  return (
-    <div className="App">
-      {windowVisible}
-      <button onClick={() => setWindowVisible(<Question />)}>Confirmar</button>
-      <button onClick={() => setWindowVisible(<QuestionContainer />)}>
-        Confirma 2
-      </button>
-    </div>
+  const [windowVisible, setWindowVisible] = useState(
+    <LandingPage onStartTest={() => setWindowVisible(<QuestionContainer />)} />
   );
+  return <div className="App">{windowVisible}</div>;
 }
 
 export default App;
