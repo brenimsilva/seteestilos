@@ -1,5 +1,7 @@
 .question_container {
   display: flex;
+  animation: fadein 0.5s ease-in-out forwards;
+  opacity: 0;
 }
 
 .question_number_container {
@@ -13,9 +15,19 @@
   background-color: var(--brand-color-2);
 }
 
-
 .choice_container {
   display: flex;
   cursor: pointer;
   user-select: none;
+  opacity: 0;
+  animation: fadein 0.5s ease-in-out forwards 0.3s;
+}
+
+.choice_container:hover {
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
 }
