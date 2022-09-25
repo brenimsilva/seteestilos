@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Choice from "./Choice";
-import questions from "./DATA/questions.json";
 import style from "./styles/question.module.css";
 function ChoicesList(props) {
   return (

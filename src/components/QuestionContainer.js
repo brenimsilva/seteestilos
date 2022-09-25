@@ -49,30 +49,34 @@ function QuestionContainer() {
     ctx.returnToPreviousPage();
   }
 
-  const questionsArray = questions.map((question, index) => {
+  const questionsArray = questions.questions.map((question, index) => {
     return (
       <div key={index} className={style.container}>
         <Question
           index={index}
           text={question.question}
           key={index}
-          maxChoices={questions[index].choices}
+          maxChoices={questions.questions[index].choices}
         />
         <div>
           <ChoicesList
             onGetVotes={onGetVotes}
             onRemoveVotes={onRemoveVotes}
             choices={question.answers}
-            maxChoices={questions[index].choices}
+            maxChoices={questions.questions[index].choices}
           />
         </div>
         <div className={style.buttons}>
-          <button
-            onClick={returnToPreviousPage}
-            className={`${style.btn_back} ${style.btn}`}
-          >
-            Retornar
-          </button>
+          {index > 0 ? (
+            <button
+              onClick={returnToPreviousPage}
+              className={`${style.btn_back} ${style.btn}`}
+            >
+              Retornar
+            </button>
+          ) : (
+            <div></div>
+          )}
           <button
             onClick={onConfirmVotes}
             className={`${style.btn_confirm} ${style.btn}`}

@@ -1,439 +1,475 @@
-[
-  {
-    "key": 1,
-    "question": "Qual sua roupa preferida para momentos descontraídos?",
-    "choices": 2,
-    "answers": [
-      {
-        "answer": "Adoro me sentir confortável com roupas leves e práticas.",
-        "type": "ESPORTIVO",
-        "imgSrc": "Q1_R1.png"
-      },
-      {
-        "answer": "Prefiro peças com bom corte e caimento para um visual impecável.",
-        "type": "ELEGANTE",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Sou uma pessoa antenada e gosto de causar impacto em qualquer ocasião.",
-        "type": "DRAMATICO",
-        "imgSrc": "Q1_R3.png"
-      },
-      {
-        "answer": "Gosto de peças que valorizam meu corpo.",
-        "type": "SEXY",
-        "imgSrc": "Q1_R4.png"
-      },
-      {
-        "answer": "Prefiro tecidos fluidos e cores suaves e delicadas.",
-        "type": "ROMANTICO",
-        "imgSrc": "Q1_R5.png"
-      },
-      {
-        "answer": "Adoro uma peça colorida, divertida e brincar com mistura de estampas.",
-        "type": "CRIATIVO",
-        "imgSrc": "Q1_R6.png"
-      },
-      {
-        "answer": "Prefiro peças básicas, tradicionais com cores mais neutras ",
-        "type": "TRADICIONAL",
-        "imgSrc": "Q1_R1.png"
-      }
-    ]
-  },
-  {
-    "key": 2,
-    "question": "Como você se considera?",
-    "choices": 2,
-    "answers": [
-      {
-        "answer": "Criativa - Exótica- Aventureira - Inovadora ",
-        "type": "DRAMATICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Tradicional- Conservadora - Organizada- Séria ",
-        "type": "TRADICIONAL",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Moderna- Antenada- Firme - Contemporânea",
-        "type": "CRIATIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Elegante- Refinada -Segura -Exigente",
-        "type": "ELEGANTE",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Romântica- Delicada- Meiga- Feminina",
-        "type": "ROMANTICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Esportiva ou Natural- Espontânea- Informal",
-        "type": "ESPORTIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Sexy - Glamurosa -Excitante- Sensual",
-        "type": "SEXY",
-        "imgSrc": "Q1_R2.png"
-      }
-    ]
-  },
-  {
-    "key": 3,
-    "question": "Qual dessas maquiagens faz mais a sua cabeça?",
-    "choices": 2,
-    "answers": [
-      {
-        "answer": "O mais natural possível.",
-        "type": "ESPORTIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Gosto de cores, brilhos, adoro experimentar makes diferentes.",
-        "type": "DRAMATICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Para mim a maquiagem precisa ser bem destacada.",
-        "type": "CRIATIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Adoro olho esfumado e uma boca bem sensual.",
-        "type": "SEXY",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Gosto de maquiagem discreta e em tons neutros.",
-        "type": "TRADICIONAL",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Adoro tons delicados e suaves.",
-        "type": "ROMANTICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Gosto de uma pele muito bem preparada com a maquiagem impecável, que valorize meus traços.",
-        "type": "ELEGANTE",
-        "imgSrc": "Q1_R2.png"
-      }
-    ]
-  },
-  {
-    "key": 4,
-    "question": "Marque a imagem que tem as cores e características com as quais você mais se identifica:",
-    "choices": 2,
-    "answers": [
-      {
-        "answer": "Recebo mais elogios quando uso marinho, cinza e beje.",
-        "type": "TRADICIONAL",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Gosto muito das cores mais intensas color blocking com mix de estampas.",
-        "type": "CRIATIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Recebo mais elogios quando uso as cores suaves.",
-        "type": "ROMANTICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Fico muito bem com as cores mais suaves em tons azulados e frias.",
-        "type": "ELEGANTE",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Gosto de usar cores forte e animal print.",
-        "type": "SEXY",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Adoro cores neutras, terrosas cheia de energia.",
-        "type": "ESPORTIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Gosto de ar cores forte brilhantes.",
-        "type": "DRAMATICO",
-        "imgSrc": "Q1_R2.png"
-      }
-    ]
-  },
-  {
-    "key": 5,
-    "question": "Qual o seu programa preferido?",
-    "choices": 2,
-    "answers": [
-      {
-        "answer": "Amo ir ao teatro ou a um restaurante luxuoso.",
-        "type": "ELEGANTE",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Não perco um brejo.",
-        "type": "CRIATIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Adoro estar em um bar uma balada com amigos.",
-        "type": "SEXY",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Conhecer cidades grandes e ir a lugares modernos.",
-        "type": "DRAMATICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Um picnic com meu morzão.",
-        "type": "ROMANTICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Meu programa preferido é um jantar informal ou um cinema.",
-        "type": "TRADICIONAL",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Sem dúvidas um passeio no parque ou na praia.",
-        "type": "ESPORTIVO",
-        "imgSrc": "Q1_R2.png"
-      }
-    ]
-  },
-  {
-    "key": 6,
-    "question": "Quais dos pretinhos básicos abaixo tem mais haver com você?",
-    "choices": 2,
-    "answers": [
-      {
-        "answer": "Só porque é pretinho não precisa ser básico.",
-        "type": "CRIATIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Adoro renda ou tecidos fluidos mesmo para o pretinho básico.",
-        "type": "ROMANTICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Não abro mão do conforto e praticidade.",
-        "type": "ESPORTIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Para mim o pretinho deve ser realmente básico e atemporal.",
-        "type": "ELEGANTE",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Gosto de ser sensual na medida certa.",
-        "type": "SEXY",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Adoro modelos diferentes e marcantes.",
-        "type": "DRAMATICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Gosto de tecidos nobres, caimento e cortes perfeitos.",
-        "type": "TRADICIONAL",
-        "imgSrc": "Q1_R2.png"
-      }
-    ]
-  },
-  {
-    "key": 7,
-    "question": "Quais os tipos de acessórios que você se identifica?",
-    "choices": 2,
-    "answers": [
-      {
-        "answer": "Jóias verdadeira e sofisticadas.",
-        "type": "ELEGANTE",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Peças coloridas com materiais diversificados.",
-        "type": "CRIATIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Colar de pérolas e outras peças clássicas.",
-        "type": "TRADICIONAL",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Com design geométrico.",
-        "type": "DRAMATICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Delicadas",
-        "type": "ROMANTICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Brincos grandes chamativos.",
-        "type": "SEXY",
-        "imgSrc": "Q1_R2.png"
-      }
-    ]
-  },
-  {
-    "key": 8,
-    "question": "Com qual desses looks você se sente melhor no trabalho?",
-    "choices": 2,
-    "answers": [
-      {
-        "answer": "Roupas de boa qualidade, modelos clássicos e com cores neutras.",
-        "type": "ELEGANTE",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Conforto e praticidade sempre.",
-        "type": "ESPORTIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Prefiro tons suaves e peças leves.",
-        "type": "ROMANTICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Mesmo no trabalho gosto de manter minha identidade criativa.",
-        "type": "CRIATIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Gosto de transmitir uma imagem elegante e bem alinhada",
-        "type": "TRADICIONAL",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Gosto de me sentir poderosa com peças que valorizem a minha beleza em qualquer ambiente.",
-        "type": "SEXY",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Adoro transmitir uma imagem moderna.",
-        "type": "DRAMATICO",
-        "imgSrc": "Q1_R2.png"
-      }
-    ]
-  },
-  {
-    "key": 9,
-    "question": "Qual a sua proporção corporal, independente do seu peso, observe as proporções conforme a descrição da imagem. Não existe corpo ideal, o seu corpo é perfeito?",
-    "choices": 1,
-    "answers": [
-      {
-        "answer": "Ombros maiores que o quadril.",
-        "type": "T",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Quadril maior que os ombros.",
-        "type": "PERA",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Ombros proporcionais ao quadril.",
-        "type": "AMPULHETA",
-        "imgSrc": "Q1_R2.png"
-      }
-    ]
-  },
-  {
-    "key": 10,
-    "question": "Qual o estilo de sapato que você mais gosta?",
-    "choices": 2,
-    "answers": [
-      {
-        "answer": "Sandálias de salto alto.",
-        "type": "ELEGANTE",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Mule de salto.",
-        "type": "TRADICIONAL",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Coloridos e diferenciados.",
-        "type": "DRAMATICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Mocassim.",
-        "type": "CRIATIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Tênis.",
-        "type": "ESPORTIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Sapatilhas delicadas.",
-        "type": "ROMANTICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Scarpins.",
-        "type": "SEXY",
-        "imgSrc": "Q1_R2.png"
-      }
-    ]
-  },
-  {
-    "key": 11,
-    "question": "Qual o seu estilo de decoração?",
-    "choices": 2,
-    "answers": [
-      {
-        "answer": "Clássico",
-        "type": "TRADICIONAL",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Natural",
-        "type": "ESPORTIVO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Elegante",
-        "type": "ELEGANTE",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Romântico",
-        "type": "ROMANTICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Glamurosa",
-        "type": "SEXY",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Moderna dramática.",
-        "type": "DRAMATICO",
-        "imgSrc": "Q1_R2.png"
-      },
-      {
-        "answer": "Criativo.",
-        "type": "CRIATIVO",
-        "imgSrc": "Q1_R2.png"
-      }
-    ]
-  }
-]
+{
+  "questions": [
+    {
+      "key": 1,
+      "question": "Qual sua roupa preferida para momentos descontraídos?",
+      "choices": 2,
+      "answers": [
+        {
+          "answer": "Adoro me sentir confortável com roupas leves e práticas.",
+          "type": "ESPORTIVO",
+          "imgSrc": "Q1_R1.png"
+        },
+        {
+          "answer": "Prefiro peças com bom corte e caimento para um visual impecável.",
+          "type": "ELEGANTE",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Sou uma pessoa antenada e gosto de causar impacto em qualquer ocasião.",
+          "type": "DRAMATICO",
+          "imgSrc": "Q1_R3.png"
+        },
+        {
+          "answer": "Gosto de peças que valorizam meu corpo.",
+          "type": "SEXY",
+          "imgSrc": "Q1_R4.png"
+        },
+        {
+          "answer": "Prefiro tecidos fluidos e cores suaves e delicadas.",
+          "type": "ROMANTICO",
+          "imgSrc": "Q1_R5.png"
+        },
+        {
+          "answer": "Adoro uma peça colorida, divertida e brincar com mistura de estampas.",
+          "type": "CRIATIVO",
+          "imgSrc": "Q1_R6.png"
+        },
+        {
+          "answer": "Prefiro peças básicas, tradicionais com cores mais neutras ",
+          "type": "TRADICIONAL",
+          "imgSrc": "Q1_R1.png"
+        }
+      ]
+    },
+    {
+      "key": 2,
+      "question": "Como você se considera?",
+      "choices": 2,
+      "answers": [
+        {
+          "answer": "Criativa - Exótica- Aventureira - Inovadora ",
+          "type": "DRAMATICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Tradicional- Conservadora - Organizada- Séria ",
+          "type": "TRADICIONAL",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Moderna- Antenada- Firme - Contemporânea",
+          "type": "CRIATIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Elegante- Refinada -Segura -Exigente",
+          "type": "ELEGANTE",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Romântica- Delicada- Meiga- Feminina",
+          "type": "ROMANTICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Esportiva ou Natural- Espontânea- Informal",
+          "type": "ESPORTIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Sexy - Glamurosa -Excitante- Sensual",
+          "type": "SEXY",
+          "imgSrc": "Q1_R2.png"
+        }
+      ]
+    },
+    {
+      "key": 3,
+      "question": "Qual dessas maquiagens faz mais a sua cabeça?",
+      "choices": 2,
+      "answers": [
+        {
+          "answer": "O mais natural possível.",
+          "type": "ESPORTIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Gosto de cores, brilhos, adoro experimentar makes diferentes.",
+          "type": "DRAMATICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Para mim a maquiagem precisa ser bem destacada.",
+          "type": "CRIATIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Adoro olho esfumado e uma boca bem sensual.",
+          "type": "SEXY",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Gosto de maquiagem discreta e em tons neutros.",
+          "type": "TRADICIONAL",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Adoro tons delicados e suaves.",
+          "type": "ROMANTICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Gosto de uma pele muito bem preparada com a maquiagem impecável, que valorize meus traços.",
+          "type": "ELEGANTE",
+          "imgSrc": "Q1_R2.png"
+        }
+      ]
+    },
+    {
+      "key": 4,
+      "question": "Marque a imagem que tem as cores e características com as quais você mais se identifica:",
+      "choices": 2,
+      "answers": [
+        {
+          "answer": "Recebo mais elogios quando uso marinho, cinza e beje.",
+          "type": "TRADICIONAL",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Gosto muito das cores mais intensas color blocking com mix de estampas.",
+          "type": "CRIATIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Recebo mais elogios quando uso as cores suaves.",
+          "type": "ROMANTICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Fico muito bem com as cores mais suaves em tons azulados e frias.",
+          "type": "ELEGANTE",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Gosto de usar cores forte e animal print.",
+          "type": "SEXY",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Adoro cores neutras, terrosas cheia de energia.",
+          "type": "ESPORTIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Gosto de ar cores forte brilhantes.",
+          "type": "DRAMATICO",
+          "imgSrc": "Q1_R2.png"
+        }
+      ]
+    },
+    {
+      "key": 5,
+      "question": "Qual o seu programa preferido?",
+      "choices": 2,
+      "answers": [
+        {
+          "answer": "Amo ir ao teatro ou a um restaurante luxuoso.",
+          "type": "ELEGANTE",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Não perco um brejo.",
+          "type": "CRIATIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Adoro estar em um bar uma balada com amigos.",
+          "type": "SEXY",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Conhecer cidades grandes e ir a lugares modernos.",
+          "type": "DRAMATICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Um picnic com meu morzão.",
+          "type": "ROMANTICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Meu programa preferido é um jantar informal ou um cinema.",
+          "type": "TRADICIONAL",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Sem dúvidas um passeio no parque ou na praia.",
+          "type": "ESPORTIVO",
+          "imgSrc": "Q1_R2.png"
+        }
+      ]
+    },
+    {
+      "key": 6,
+      "question": "Quais dos pretinhos básicos abaixo tem mais haver com você?",
+      "choices": 2,
+      "answers": [
+        {
+          "answer": "Só porque é pretinho não precisa ser básico.",
+          "type": "CRIATIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Adoro renda ou tecidos fluidos mesmo para o pretinho básico.",
+          "type": "ROMANTICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Não abro mão do conforto e praticidade.",
+          "type": "ESPORTIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Para mim o pretinho deve ser realmente básico e atemporal.",
+          "type": "ELEGANTE",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Gosto de ser sensual na medida certa.",
+          "type": "SEXY",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Adoro modelos diferentes e marcantes.",
+          "type": "DRAMATICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Gosto de tecidos nobres, caimento e cortes perfeitos.",
+          "type": "TRADICIONAL",
+          "imgSrc": "Q1_R2.png"
+        }
+      ]
+    },
+    {
+      "key": 7,
+      "question": "Quais os tipos de acessórios que você se identifica?",
+      "choices": 2,
+      "answers": [
+        {
+          "answer": "Jóias verdadeira e sofisticadas.",
+          "type": "ELEGANTE",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Peças coloridas com materiais diversificados.",
+          "type": "CRIATIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Colar de pérolas e outras peças clássicas.",
+          "type": "TRADICIONAL",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Com design geométrico.",
+          "type": "DRAMATICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Delicadas",
+          "type": "ROMANTICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Brincos grandes chamativos.",
+          "type": "SEXY",
+          "imgSrc": "Q1_R2.png"
+        }
+      ]
+    },
+    {
+      "key": 8,
+      "question": "Com qual desses looks você se sente melhor no trabalho?",
+      "choices": 2,
+      "answers": [
+        {
+          "answer": "Roupas de boa qualidade, modelos clássicos e com cores neutras.",
+          "type": "ELEGANTE",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Conforto e praticidade sempre.",
+          "type": "ESPORTIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Prefiro tons suaves e peças leves.",
+          "type": "ROMANTICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Mesmo no trabalho gosto de manter minha identidade criativa.",
+          "type": "CRIATIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Gosto de transmitir uma imagem elegante e bem alinhada",
+          "type": "TRADICIONAL",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Gosto de me sentir poderosa com peças que valorizem a minha beleza em qualquer ambiente.",
+          "type": "SEXY",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Adoro transmitir uma imagem moderna.",
+          "type": "DRAMATICO",
+          "imgSrc": "Q1_R2.png"
+        }
+      ]
+    },
+    {
+      "key": 9,
+      "question": "Qual a sua proporção corporal, independente do seu peso, observe as proporções conforme a descrição da imagem. Não existe corpo ideal, o seu corpo é perfeito?",
+      "choices": 1,
+      "answers": [
+        {
+          "answer": "Ombros maiores que o quadril.",
+          "type": "T",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Quadril maior que os ombros.",
+          "type": "PERA",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Ombros proporcionais ao quadril.",
+          "type": "AMPULHETA",
+          "imgSrc": "Q1_R2.png"
+        }
+      ]
+    },
+    {
+      "key": 10,
+      "question": "Qual o estilo de sapato que você mais gosta?",
+      "choices": 2,
+      "answers": [
+        {
+          "answer": "Sandálias de salto alto.",
+          "type": "ELEGANTE",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Mule de salto.",
+          "type": "TRADICIONAL",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Coloridos e diferenciados.",
+          "type": "DRAMATICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Mocassim.",
+          "type": "CRIATIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Tênis.",
+          "type": "ESPORTIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Sapatilhas delicadas.",
+          "type": "ROMANTICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Scarpins.",
+          "type": "SEXY",
+          "imgSrc": "Q1_R2.png"
+        }
+      ]
+    },
+    {
+      "key": 11,
+      "question": "Qual o seu estilo de decoração?",
+      "choices": 2,
+      "answers": [
+        {
+          "answer": "Clássico",
+          "type": "TRADICIONAL",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Natural",
+          "type": "ESPORTIVO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Elegante",
+          "type": "ELEGANTE",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Romântico",
+          "type": "ROMANTICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Glamurosa",
+          "type": "SEXY",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Moderna dramática.",
+          "type": "DRAMATICO",
+          "imgSrc": "Q1_R2.png"
+        },
+        {
+          "answer": "Criativo.",
+          "type": "CRIATIVO",
+          "imgSrc": "Q1_R2.png"
+        }
+      ]
+    }
+  ],
+  "descriptions": [
+    {
+      "type": "ROMÂNTICO",
+      "text": "Representado por mulheres delicadas, românticas que gostam de tudo que é considerado feminino. Transmite mensagem de delicadeza, acessibilidade e afetuosidade",
+      "list": [
+        "Cores delicadas, suaves, pastéis, monocromática, análogas, estampas florais e poá",
+        "Acessórios delicados, com detalhes, sapatos boneca, sapatilhas com laço",
+        "Cabelos longos com movimento",
+        "Maquiagem suave delicada"
+      ]
+    },
+    {
+      "type": "ESPORTIVO",
+      "text": "Mulheres de estilo natural esportivo, geralmente priorizam conforto. Transmitem mensagem amigável, enérgica, natural e casual",
+      "list": [
+        "Cores neutras como bege e cinza, terrosas, cores análogas e estampas simples",
+        "Acessórios simples que não incomodam e não pesam",
+        "Calçados confortáveis como tênis, sandálias Anabela de salto médio e outros modelos com saltos confortáveis.",
+        "Cabelos natural, mas bem cuidado. Para ocasião mais formal optam por peças de alfaiataria, linho e viscose."
+      ]
+    },
+    {
+      "type": "CLASSICO TRADICIONAL",
+      "text": "As mulheres do estilo clássico tradicional são conservadoras na forma de agir e de se vestir. Transmitem mensagem de confiabilidade, lealdade, credibilidade, maturidade e responsabilidade",
+      "list": [
+        "Cores neutras, mais escuras, monocromáticas e estampas clássicas.",
+        "Acessórios clássicos, lenços, pérolas, sapatos fechados",
+        "Cabelos bem cuidados e que não chamem atenção",
+        "Maquiagem sem excesso",
+        "Tecidos de qualidade, bom caimento, estruturados (calças retas, blusa e saias)",
+        "Gosta de estar sempre impecável."
+      ]
+    }
+  ]
+}

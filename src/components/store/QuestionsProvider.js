@@ -1,6 +1,5 @@
 import React, { useContext, useReducer } from "react";
 import { QuestionsContext } from "./questions-context";
-import questionsData from "../DATA/questions.json";
 
 //Context criado para funcoes da questao em si
 //Para guardar dados do usuario procure UserProvider
@@ -52,19 +51,12 @@ const defaultState = {
 function choiceReducer(state, action) {
   switch (action.type) {
     case "CONFIRM":
+      //CONFIRM SETUP
       const newVotesHistory = { ...state.votesHistory };
       newVotesHistory[state.page] = state.tempVotes;
       const votesList = Object.values(newVotesHistory).flat();
-      //CONFIRM SETUP
       const totalCount = calcSummary(votesList);
       //FINALLY
-      console.log({
-        ...state,
-        tempVotes: [],
-        votes: totalCount,
-        page: state.page + 1,
-        votesHistory: newVotesHistory,
-      });
       return {
         ...state,
         tempVotes: [],
@@ -75,8 +67,6 @@ function choiceReducer(state, action) {
 
     case "BACK":
       const previousPage = state.page - 1;
-
-      console.log(state.votesHistory);
       // calcSummary();
       return {
         ...state,

@@ -21,9 +21,7 @@ function Choice(props) {
       <div className={style.div_image}>
         <img src={img} className={style.choice_image}></img>
       </div>
-      <div className={style.li_text}>
-        {props.text}: {props.type}
-      </div>
+      <div className={style.li_text}>{props.text}</div>
     </li>
   );
 }
