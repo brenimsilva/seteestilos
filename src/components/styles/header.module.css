@@ -1,5 +1,16 @@
 .header {
+}
+
+.hr {
+  padding: 3px;
+  background-color: var(--brand-color-1);
+}
+
+h1 {
+  color: var(--brand-color-1);
+}
+
+.header_div {
   display: flex;
   justify-content: space-around;
-  padding: 50px;
 }

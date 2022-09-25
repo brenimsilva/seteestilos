@@ -5,7 +5,7 @@ import style from "./styles/question.module.css";
 function ChoicesList(props) {
   return (
     <React.Fragment>
-      <ul>
+      <ul className={style.choice_list}>
         {props.choices.map((item, index) => {
           return (
             <Choice

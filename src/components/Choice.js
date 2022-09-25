@@ -12,17 +12,19 @@ function Choice(props) {
   console.log(ctx.tempVotes);
   const isSelected = ctx.tempVotes.includes(props.type);
   return (
-    <React.Fragment>
-      <li
-        className={`${style.choice_container} ${
-          isSelected ? style.selected : ""
-        }`}
-        onClick={toggleSelectRemove}
-      >
-        {props.text}: {props.type}
+    <li
+      className={`${style.choice_container} ${
+        isSelected ? style.selected : ""
+      }`}
+      onClick={toggleSelectRemove}
+    >
+      <div className={style.div_image}>
         <img src={img} className={style.choice_image}></img>
-      </li>
-    </React.Fragment>
+      </div>
+      <div className={style.li_text}>
+        {props.text}: {props.type}
+      </div>
+    </li>
   );
 }
 

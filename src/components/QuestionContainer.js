@@ -5,6 +5,8 @@ import ChoicesList from "./ChoicesList";
 import Choice from "./Choice";
 import { QuestionsContext } from "./store/questions-context";
 import StatsPage from "./landing/StatsPage";
+import style from "../components/styles/question_container.module.css";
+import Header from "./UI/Header";
 function QuestionContainer() {
   const [votes, setVotes] = useState([]);
   const [mostVoted, setMostVoted] = useState();
@@ -49,16 +51,35 @@ function QuestionContainer() {
 
   const questionsArray = questions.map((question, index) => {
     return (
-      <div key={index}>
-        <Question index={index} text={question.question} key={index} />
-        <ChoicesList
-          onGetVotes={onGetVotes}
-          onRemoveVotes={onRemoveVotes}
-          choices={question.answers}
+      <div key={index} className={style.container}>
+        <Question
+          index={index}
+          text={question.question}
+          key={index}
           maxChoices={questions[index].choices}
         />
-        <button onClick={onConfirmVotes}>Confirmar</button>
-        <button onClick={returnToPreviousPage}>Retornar</button>
+        <div>
+          <ChoicesList
+            onGetVotes={onGetVotes}
+            onRemoveVotes={onRemoveVotes}
+            choices={question.answers}
+            maxChoices={questions[index].choices}
+          />
+        </div>
+        <div className={style.buttons}>
+          <button
+            onClick={returnToPreviousPage}
+            className={`${style.btn_back} ${style.btn}`}
+          >
+            Retornar
+          </button>
+          <button
+            onClick={onConfirmVotes}
+            className={`${style.btn_confirm} ${style.btn}`}
+          >
+            Confirmar
+          </button>
+        </div>
       </div>
     );
   });
@@ -66,11 +87,14 @@ function QuestionContainer() {
   //COMPONENT
   return (
     <div>
-      {ctx.page < questionsArray.length ? (
-        questionsArray[ctx.page]
-      ) : (
-        <StatsPage mostVoted={mostVoted.type} styleText={"Texto do estilo"} />
-      )}
+      <Header />
+      <div className={style.body}>
+        {ctx.page < questionsArray.length ? (
+          questionsArray[ctx.page]
+        ) : (
+          <StatsPage mostVoted={mostVoted.type} styleText={"Texto do estilo"} />
+        )}
+      </div>
     </div>
   );
 }
