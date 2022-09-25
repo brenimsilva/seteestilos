@@ -5,3 +5,13 @@
   --brand-color-4: #fcb8b8;
   --brand-color-5: #b6644b;
 }
+
+html,
+body,
+#root,
+.App,
+#root > div,
+#app,
+#app > div {
+  height: 100%;
+}
