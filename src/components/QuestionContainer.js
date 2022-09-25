@@ -4,14 +4,28 @@ import Question from "./Question";
 import ChoicesList from "./ChoicesList";
 import Choice from "./Choice";
 import { QuestionsContext } from "./store/questions-context";
+import StatsPage from "./landing/StatsPage";
 function QuestionContainer() {
   const [votes, setVotes] = useState([]);
-  const [count, setCounter] = useState(0);
+  const [mostVoted, setMostVoted] = useState();
+  const ctx = useContext(QuestionsContext);
 
-  const { addVotesToList } = useContext(QuestionsContext);
+  function calcMostVotedStyle() {
+    let arrVotes = [];
+    ctx.votes.forEach((vote) => {
+      arrVotes = [...arrVotes, vote.count];
+    });
+    const numMaior = Math.max(...arrVotes);
+    const maior = arrVotes.indexOf(numMaior);
+    console.log(numMaior);
+    setMostVoted(ctx.votes[maior]);
+    console.log("mais votado: ", mostVoted);
+  }
 
   function onConfirmVotes() {
-    addVotesToList();
+    ctx.addVotesToList();
+    // setVotes([]);
+    calcMostVotedStyle();
   }
 
   function onGetVotes(vote) {
@@ -29,22 +43,34 @@ function QuestionContainer() {
     });
   }
 
+  function returnToPreviousPage() {
+    ctx.returnToPreviousPage();
+  }
+
+  const questionsArray = questions.map((question, index) => {
+    return (
+      <div key={index}>
+        <Question index={index} text={question.question} key={index} />
+        <ChoicesList
+          onGetVotes={onGetVotes}
+          onRemoveVotes={onRemoveVotes}
+          choices={question.answers}
+          maxChoices={questions[index].choices}
+        />
+        <button onClick={onConfirmVotes}>Confirmar</button>
+        <button onClick={returnToPreviousPage}>Retornar</button>
+      </div>
+    );
+  });
+
+  //COMPONENT
   return (
     <div>
-      {questions.map((question, index) => {
-        return (
-          <div key={index}>
-            <Question index={index} text={question.question} key={index} />
-            <ChoicesList
-              onGetVotes={onGetVotes}
-              onRemoveVotes={onRemoveVotes}
-              choices={question.answers}
-              maxChoices={questions[index].choices}
-            />
-            <button onClick={onConfirmVotes}>Confirmar</button>
-          </div>
-        );
-      })}
+      {ctx.page < questionsArray.length ? (
+        questionsArray[ctx.page]
+      ) : (
+        <StatsPage mostVoted={mostVoted.type} styleText={"Texto do estilo"} />
+      )}
     </div>
   );
 }

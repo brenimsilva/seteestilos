@@ -7,37 +7,37 @@
       {
         "answer": "Adoro me sentir confortável com roupas leves e práticas.",
         "type": "ESPORTIVO",
-        "imgSrc": "[PATH]"
+        "imgSrc": "Q1_R1.png"
       },
       {
         "answer": "Prefiro peças com bom corte e caimento para um visual impecável.",
         "type": "ELEGANTE",
-        "imgSrc": "[PATH]"
+        "imgSrc": "Q1_R2.png"
       },
       {
         "answer": "Sou uma pessoa antenada e gosto de causar impacto em qualquer ocasião.",
         "type": "DRAMATICO",
-        "imgSrc": "[PATH]"
+        "imgSrc": "Q1_R3.png"
       },
       {
         "answer": "Gosto de peças que valorizam meu corpo.",
         "type": "SEXY",
-        "imgSrc": "[PATH]"
+        "imgSrc": "Q1_R4.png"
       },
       {
         "answer": "Prefiro tecidos fluidos e cores suaves e delicadas.",
         "type": "ROMANTICO",
-        "imgSrc": "[PATH]"
+        "imgSrc": "Q1_R5.png"
       },
       {
         "answer": "Adoro uma peça colorida, divertida e brincar com mistura de estampas.",
         "type": "CRIATIVO",
-        "imgSrc": "[PATH]"
+        "imgSrc": "Q1_R6.png"
       },
       {
         "answer": "Prefiro peças básicas, tradicionais com cores mais neutras ",
         "type": "TRADICIONAL",
-        "imgSrc": "[PATH]"
+        "imgSrc": "Q1_R1.png"
       }
     ]
   },
@@ -337,17 +337,17 @@
     "answers": [
       {
         "answer": "Ombros maiores que o quadril.",
-        "type": null,
+        "type": "T",
         "imgSrc": "[PATH]"
       },
       {
         "answer": "Quadril maior que os ombros.",
-        "type": null,
+        "type": "PERA",
         "imgSrc": "[PATH]"
       },
       {
         "answer": "Ombros proporcionais ao quadril.",
-        "type": null,
+        "type": "AMPULHETA",
         "imgSrc": "[PATH]"
       }
     ]

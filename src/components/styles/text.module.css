@@ -1,9 +1,23 @@
 .title {
   color: var(--brand-color-3);
+  text-align: center;
 }
 
 .text {
-  color: #333;
+  color: black;
+}
+
+.description__text {
+  color: white;
+}
+
+.text_container {
+  width: 50%;
+}
+
+.div_container {
+  display: flex;
+  justify-content: center;
 }
 
 .button {
@@ -24,5 +38,13 @@
 }
 
 .container {
-  background-image: url();
+  height: 100%;
+  background-image: url("../../../public//background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button_div {
+  display: flex;
+  justify-content: center;
 }
