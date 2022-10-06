@@ -440,7 +440,7 @@
   ],
   "descriptions": [
     {
-      "type": "ROMÂNTICO",
+      "type": "ROMANTICO",
       "text": "Representado por mulheres delicadas, românticas que gostam de tudo que é considerado feminino. Transmite mensagem de delicadeza, acessibilidade e afetuosidade",
       "list": [
         "Cores delicadas, suaves, pastéis, monocromática, análogas, estampas florais e poá",
@@ -460,7 +460,7 @@
       ]
     },
     {
-      "type": "CLASSICO TRADICIONAL",
+      "type": "TRADICIONAL",
       "text": "As mulheres do estilo clássico tradicional são conservadoras na forma de agir e de se vestir. Transmitem mensagem de confiabilidade, lealdade, credibilidade, maturidade e responsabilidade",
       "list": [
         "Cores neutras, mais escuras, monocromáticas e estampas clássicas.",
@@ -469,6 +469,49 @@
         "Maquiagem sem excesso",
         "Tecidos de qualidade, bom caimento, estruturados (calças retas, blusa e saias)",
         "Gosta de estar sempre impecável."
+      ]
+    },
+    {
+      "type": "ELEGANTE",
+      "text": "As mulheres desse estilo se preocupam em passar uma imagem perfeita, atualizada e requintada. Transmite mensagem de confiabilidade, sofisticação perfeccionismo e atemporalidade",
+      "list": [
+        "Cores monocromática ou tom sobre tom, ponto de cor, estampa bem discreta quando usada.",
+        "Acessórios poderosos, joias verdadeiras",
+        "Sapatos scarpin em perfeito estado e sandálias com salto bem alto",
+        "Cabelos que estiver em tendencia",
+        "Maquiagem impecável",
+        "Tecidos refinados, suaves, leves, caimento perfeito."
+      ]
+    },
+    {
+      "type": "SEXY",
+      "text": "As mulheres desse estilo são seguras decididas e que gostam de chamar atenção através das formas do seu corpo.Transmitem mensagem de ousadia e sedução. Podem ser extrovertidas ou misteriosas.",
+      "list": [
+        "Cores vibrantes, fortes, animal print",
+        "Acessórios de materiais brilhosos, metais, tachas,fivelas, colares, pulseiras, tornozeleiras, sandálias com amarrações",
+        "Cabelos longos com ondas e volume",
+        "Maquiagem ousada, olhos marcados, gloss",
+        "Tecidos que se ajustam ao corpo, cintura marcada, transparências, decotes, recortes"
+      ]
+    },
+    {
+      "type": "CRIATIVO",
+      "text": "As mulheres desse estilo não gostam de seguir regras, não se preocupam com o julgamento alheio. Chamam atenção sem querer.Transmitem mensagem de criatividade, imaginação, liberdade e singularidade ",
+      "list": [
+        "Muitas cores, coordenação de cores complementares, tríade, color-blocking, mix de estampas e texturas, combinações imprevisíveis.",
+        "Acessórios divertidos, temáticos, brechó, artístico.",
+        "Cabelos e maquiagem de acordo com o humor, sem limites.",
+        "Tecidos com mistura de materiais, mistura de caimento (tecidos leves e pesados)."
+      ]
+    },
+    {
+      "type": "DRAMATICO",
+      "text": "As mulheres do estilo dramático urbano são poderosas autoconfiante, ousada, moderna.Mulheres que gostam de ser notadas, não seguem regras e não gostam de usar o que todo mundo usa Transmitem mensagem de inacessibilidade, ousadia e poder.",
+      "list": [
+        "Acessórios grandes, simples ou elaborado, geométricos, poderosos.",
+        "Cores exóticas fortes e brilhantes, cores complementares.",
+        "Maquiagem com contraste.",
+        "Tecido com caimento estruturado, linhas retas assimétricas."
       ]
     }
   ]

@@ -6,7 +6,6 @@ export default function LandingPage(props) {
   return (
     <div className={style.container}>
       <Header />
-      <h1>Descrição</h1>
       <div className={style.div_container}>
         <div className={style.text_container}></div>
       </div>

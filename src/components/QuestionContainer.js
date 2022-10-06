@@ -19,14 +19,13 @@ function QuestionContainer() {
     });
     const numMaior = Math.max(...arrVotes);
     const maior = arrVotes.indexOf(numMaior);
-    console.log(numMaior);
+    // console.log(numMaior);
     setMostVoted(ctx.votes[maior]);
-    console.log("mais votado: ", mostVoted);
+    // console.log("mais votado: ", mostVoted);
   }
 
   function onConfirmVotes() {
     ctx.addVotesToList();
-    // setVotes([]);
     calcMostVotedStyle();
   }
 
@@ -96,7 +95,7 @@ function QuestionContainer() {
         {ctx.page < questionsArray.length ? (
           questionsArray[ctx.page]
         ) : (
-          <StatsPage mostVoted={mostVoted.type} styleText={"Texto do estilo"} />
+          <StatsPage mostVoted={mostVoted.type} />
         )}
       </div>
     </div>
