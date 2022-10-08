@@ -4,7 +4,7 @@ import questionsJson from "./DATA/questions.json";
 import { QuestionsContext } from "./store/questions-context";
 
 function Choice(props) {
-  const img = require(`../imgs/${props.imgSrc}`);
+  const img = require(`../imgs/allImages/${props.imgSrc}`);
   const ctx = useContext(QuestionsContext);
   function toggleSelectRemove() {
     ctx.toggleTempVotes({ vote: props.type, maxChoices: props.maxChoices });

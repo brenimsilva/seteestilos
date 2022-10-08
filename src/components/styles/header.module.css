@@ -1,16 +1,25 @@
 .header {
+  background-color: #f7f7f7;
 }
 
 .hr {
   padding: 3px;
   background-color: var(--brand-color-1);
+  margin-bottom: 0;
 }
 
 h1 {
   color: var(--brand-color-1);
+  user-select: none;
 }
 
 .header_div {
   display: flex;
   justify-content: space-around;
+}
+
+.logo {
+  width: 200px;
+  user-select: none;
+  pointer-events: none;
 }
