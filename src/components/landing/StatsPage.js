@@ -8,7 +8,7 @@ export default function StatsPage(props) {
   });
 
   return (
-    <div>
+    <div className={style.container}>
       <h1 className={style.title}>Seu estilo é: {props.mostVoted}</h1>
       <h5 className={style.text}>{styleText.text}</h5>
       <h4 className={style.alterText}>COMPÕEM ESSE ESTILO</h4>
