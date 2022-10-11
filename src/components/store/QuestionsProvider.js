@@ -1,4 +1,4 @@
-import React, { useContext, useReducer } from "react";
+import React, { useReducer } from "react";
 import { QuestionsContext } from "./questions-context";
 
 //Context criado para funcoes da questao em si

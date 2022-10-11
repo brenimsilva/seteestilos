@@ -1,8 +1,7 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext, useState } from "react";
 import questions from "./DATA/questions.json";
 import Question from "./Question";
 import ChoicesList from "./ChoicesList";
-import Choice from "./Choice";
 import { QuestionsContext } from "./store/questions-context";
 import StatsPage from "./landing/StatsPage";
 import style from "../components/styles/question_container.module.css";

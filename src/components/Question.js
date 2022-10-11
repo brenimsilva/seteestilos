@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "./styles/question.module.css";
 
 export default function Question(props) {

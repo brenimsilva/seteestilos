@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Choice from "./Choice";
 import style from "./styles/question.module.css";
 function ChoicesList(props) {

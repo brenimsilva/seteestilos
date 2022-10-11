@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import questions from "../DATA/questions.json";
 import style from "../styles/stats.module.css";
 
