@@ -333,32 +333,32 @@
     },
     {
       "key": 9,
-      "question": "Qual a sua proporção corporal, independente do seu peso, observe as proporções conforme a descrição da imagem. Não existe corpo ideal, o seu corpo é perfeito?",
+      "question": "Qual a sua proporção corporal, independente do seu peso, observe as proporções conforme a descrição da imagem. Não existe corpo ideal, o seu corpo é perfeito!",
       "choices": 1,
       "answers": [
         {
-          "answer": "Ombros maiores que o quadril.",
-          "type": "T",
+          "answer": "AMPULHETA – As medidas de seu ombro e quadril são alinhados cintura fina.",
+          "type": "AMPULHETA",
           "imgSrc": "non-01.png"
         },
         {
-          "answer": "Quadril maior que os ombros.",
-          "type": "PERA",
+          "answer": "OVAL – As medidas da sua cintura é um pouco maior que o ombro e quadril, linhas do corpo arredondado.",
+          "type": "OVAL",
           "imgSrc": "non-02.png"
         },
         {
-          "answer": "Ombros proporcionais ao quadril.",
-          "type": "AMPULHETA",
+          "answer": "RETANGULO - As medidas de seus Ombro, quadril e cintura tem a mesma largura. Corpo reto sem cintura definida.",
+          "type": "RETANGULO",
           "imgSrc": "non-03.png"
         },
         {
-          "answer": "Formato quadrado.",
-          "type": "QUADRADO",
+          "answer": "TRINANGULO INVERTIDO - As medidas do seu ombro são um pouco mais largas que o quadril, cintura média.",
+          "type": "TRIANGULO INVERTIDO",
           "imgSrc": "non-04.png"
         },
         {
-          "answer": "Formato Redondo.",
-          "type": "REDONDO",
+          "answer": "TRIANGULO - As medidas do seu ombro são mais estreitas que o quadril, seios pequenos e quadril largo.",
+          "type": "TRIANGULO",
           "imgSrc": "non-05.png"
         }
       ]

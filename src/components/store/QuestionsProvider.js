@@ -85,13 +85,11 @@ function choiceReducer(state, action) {
         tempVotes.length < action.data.maxChoices
       ) {
         const newTempVotes = [...tempVotes, voteSelected];
-        console.log(newTempVotes);
         return { ...state, tempVotes: newTempVotes };
       }
       const oldTempVotes = tempVotes.filter((value) => {
         return value !== voteSelected;
       });
-      console.log(oldTempVotes);
       return { ...state, tempVotes: oldTempVotes };
   }
 }

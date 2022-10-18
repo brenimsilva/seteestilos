@@ -7,7 +7,6 @@ import StatsPage from "./landing/StatsPage";
 import style from "../components/styles/question_container.module.css";
 import Header from "./UI/Header";
 function QuestionContainer() {
-  const [votes, setVotes] = useState([]);
   const [mostVoted, setMostVoted] = useState();
   const ctx = useContext(QuestionsContext);
 
@@ -18,29 +17,16 @@ function QuestionContainer() {
     });
     const numMaior = Math.max(...arrVotes);
     const maior = arrVotes.indexOf(numMaior);
-    // console.log(numMaior);
     setMostVoted(ctx.votes[maior]);
-    // console.log("mais votado: ", mostVoted);
   }
 
   function onConfirmVotes() {
-    ctx.addVotesToList();
-    calcMostVotedStyle();
-  }
-
-  function onGetVotes(vote) {
-    if (!votes.includes(vote)) {
-      setVotes((prev) => {
-        return [...prev, vote];
-      });
+    if(ctx.tempVotes.length === 0) {
+      alert("Precisa escolher ao menos 1 opção");
+    } else {
+      ctx.addVotesToList();
+      calcMostVotedStyle();
     }
-  }
-
-  function onRemoveVotes(vote) {
-    var index = votes.indexOf(vote);
-    setVotes((prev) => {
-      return prev.splice(index, 1);
-    });
   }
 
   function returnToPreviousPage() {
@@ -58,8 +44,7 @@ function QuestionContainer() {
         />
         <div>
           <ChoicesList
-            onGetVotes={onGetVotes}
-            onRemoveVotes={onRemoveVotes}
+            key={index}
             choices={question.answers}
             maxChoices={questions.questions[index].choices}
           />

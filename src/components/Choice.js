@@ -8,7 +8,6 @@ function Choice(props) {
   function toggleSelectRemove() {
     ctx.toggleTempVotes({ vote: props.type, maxChoices: props.maxChoices });
   }
-  console.log(ctx.tempVotes);
   const isSelected = ctx.tempVotes.includes(props.type);
   return (
     <li
