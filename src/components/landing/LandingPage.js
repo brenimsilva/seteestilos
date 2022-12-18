@@ -13,7 +13,7 @@ export default function LandingPage(props) {
 
         <div className={style.body}>
           <Card>
-            <h1 className={style.title}>Descubra seu estilo</h1>
+            <h1 className={style.title}>DESCUBRA SEU ESTILO</h1>
             <p className={style.text}>
               Estilo está relacionado às escolhas pessoais, modo de ser, de
               pensar, de agir, de se comunicar, e vai se aprimorando ao longo da

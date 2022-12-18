@@ -9,7 +9,7 @@ export default function Header(props) {
         <div className={style.header_div}>
           <img src={logo} alt="logo" className={style.logo} />
           <h1>
-            Teste de <span>estilo</span>
+            Teste de <span>Estilo</span>
           </h1>
         </div>
         <hr className={style.hr} />

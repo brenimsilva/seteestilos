@@ -55,6 +55,10 @@
   align-items: center;
 }
 
+.li_text > p {
+  padding: 15px;
+}
+
 .div_image {
 }
 
@@ -87,4 +91,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 650px;
+}
+
+@media (max-width: 700px) {
+  .choice_list {
+    width: 470px;
+    grid-template-columns: 1fr;
+    overflow: scroll;
+    height: 650px;
+  }
+  .choice_container {
+    width: 400px;
+    transform: scale(70%);
+    row-gap: 0;
+    margin: 0;
+  }
 }

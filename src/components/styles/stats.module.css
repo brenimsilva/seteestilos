@@ -13,3 +13,7 @@
 .statsContainer {
   height: 100%;
 }
+
+.estilo_negrito {
+  font-weight: 700;
+}

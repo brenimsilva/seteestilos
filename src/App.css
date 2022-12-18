@@ -16,3 +16,19 @@ body,
 #app > div {
   height: 100%;
 }
+
+button {
+  border: none;
+  padding: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  cursor: pointer;
+  background-color: #b6644b;
+  color: white;
+}
+
+button:hover {
+  background-color: #b6644b96;
+}

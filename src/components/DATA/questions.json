@@ -8,37 +8,37 @@
         {
           "answer": "Adoro me sentir confortável com roupas leves e práticas.",
           "type": "ESPORTIVO",
-          "imgSrc": "prim-01.png"
+          "imgSrc": "prim-01"
         },
         {
           "answer": "Prefiro peças com bom corte e caimento para um visual impecável.",
           "type": "ELEGANTE",
-          "imgSrc": "prim-02.png"
+          "imgSrc": "prim-02"
         },
         {
           "answer": "Sou uma pessoa antenada e gosto de causar impacto em qualquer ocasião.",
           "type": "DRAMATICO",
-          "imgSrc": "prim-03.png"
+          "imgSrc": "prim-03"
         },
         {
           "answer": "Gosto de peças que valorizam meu corpo.",
           "type": "SEXY",
-          "imgSrc": "prim-04.png"
+          "imgSrc": "prim-04"
         },
         {
           "answer": "Prefiro tecidos fluidos e cores suaves e delicadas.",
           "type": "ROMANTICO",
-          "imgSrc": "prim-05.png"
+          "imgSrc": "prim-05"
         },
         {
           "answer": "Adoro uma peça colorida, divertida e brincar com mistura de estampas.",
           "type": "CRIATIVO",
-          "imgSrc": "prim-06.png"
+          "imgSrc": "prim-06"
         },
         {
           "answer": "Prefiro peças básicas, tradicionais com cores mais neutras ",
           "type": "TRADICIONAL",
-          "imgSrc": "prim-07.png"
+          "imgSrc": "prim-07"
         }
       ]
     },
@@ -92,37 +92,37 @@
         {
           "answer": "O mais natural possível.",
           "type": "ESPORTIVO",
-          "imgSrc": "terc-01.png"
+          "imgSrc": "terc-01"
         },
         {
           "answer": "Gosto de cores, brilhos, adoro experimentar makes diferentes.",
           "type": "DRAMATICO",
-          "imgSrc": "terc-02.png"
+          "imgSrc": "terc-02"
         },
         {
           "answer": "Para mim a maquiagem precisa ser bem destacada.",
           "type": "CRIATIVO",
-          "imgSrc": "terc-03.png"
+          "imgSrc": "terc-03"
         },
         {
           "answer": "Adoro olho esfumado e uma boca bem sensual.",
           "type": "SEXY",
-          "imgSrc": "terc-04.png"
+          "imgSrc": "terc-04"
         },
         {
           "answer": "Gosto de maquiagem discreta e em tons neutros.",
           "type": "TRADICIONAL",
-          "imgSrc": "terc-05.png"
+          "imgSrc": "terc-05"
         },
         {
           "answer": "Adoro tons delicados e suaves.",
           "type": "ROMANTICO",
-          "imgSrc": "terc-06.png"
+          "imgSrc": "terc-06"
         },
         {
           "answer": "Gosto de uma pele muito bem preparada com a maquiagem impecável, que valorize meus traços.",
           "type": "ELEGANTE",
-          "imgSrc": "terc-07.png"
+          "imgSrc": "terc-07"
         }
       ]
     },
@@ -134,22 +134,22 @@
         {
           "answer": "Recebo mais elogios quando uso marinho, cinza e beje.",
           "type": "TRADICIONAL",
-          "imgSrc": "quart-01.png"
+          "imgSrc": "quart-01"
         },
         {
           "answer": "Gosto muito das cores mais intensas color blocking com mix de estampas.",
           "type": "CRIATIVO",
-          "imgSrc": "quart-02.png"
+          "imgSrc": "quart-02"
         },
         {
           "answer": "Recebo mais elogios quando uso as cores suaves.",
           "type": "ROMANTICO",
-          "imgSrc": "quart-03.png"
+          "imgSrc": "quart-03"
         },
         {
           "answer": "Fico muito bem com as cores mais suaves em tons azulados e frias.",
           "type": "ELEGANTE",
-          "imgSrc": "quart-04.png"
+          "imgSrc": "quart-04"
         },
         {
           "answer": "Gosto de usar cores forte e animal print.",
@@ -176,37 +176,37 @@
         {
           "answer": "Amo ir ao teatro ou a um restaurante luxuoso.",
           "type": "ELEGANTE",
-          "imgSrc": "quin-01.png"
+          "imgSrc": "quin-01"
         },
         {
-          "answer": "Não perco um brejo.",
+          "answer": "Não perco um brechó.",
           "type": "CRIATIVO",
-          "imgSrc": "quin-02.png"
+          "imgSrc": "quin-02"
         },
         {
           "answer": "Adoro estar em um bar uma balada com amigos.",
           "type": "SEXY",
-          "imgSrc": "quin-03.png"
+          "imgSrc": "quin-03"
         },
         {
           "answer": "Conhecer cidades grandes e ir a lugares modernos.",
           "type": "DRAMATICO",
-          "imgSrc": "quin-04.png"
+          "imgSrc": "quin-04"
         },
         {
           "answer": "Um picnic com meu morzão.",
           "type": "ROMANTICO",
-          "imgSrc": "quin-05.png"
+          "imgSrc": "quin-05"
         },
         {
           "answer": "Meu programa preferido é um jantar informal ou um cinema.",
           "type": "TRADICIONAL",
-          "imgSrc": "quin-06.png"
+          "imgSrc": "quin-06"
         },
         {
           "answer": "Sem dúvidas um passeio no parque ou na praia.",
           "type": "ESPORTIVO",
-          "imgSrc": "quin-07.png"
+          "imgSrc": "quin-07"
         }
       ]
     },
@@ -218,37 +218,37 @@
         {
           "answer": "Só porque é pretinho não precisa ser básico.",
           "type": "CRIATIVO",
-          "imgSrc": "sex-01.png"
+          "imgSrc": "sex-01"
         },
         {
           "answer": "Adoro renda ou tecidos fluidos mesmo para o pretinho básico.",
           "type": "ROMANTICO",
-          "imgSrc": "sex-02.png"
+          "imgSrc": "sex-02"
         },
         {
           "answer": "Não abro mão do conforto e praticidade.",
           "type": "ESPORTIVO",
-          "imgSrc": "sex-03.png"
+          "imgSrc": "sex-03"
         },
         {
           "answer": "Para mim o pretinho deve ser realmente básico e atemporal.",
           "type": "ELEGANTE",
-          "imgSrc": "sex-04.png"
+          "imgSrc": "sex-04"
         },
         {
           "answer": "Gosto de ser sensual na medida certa.",
           "type": "SEXY",
-          "imgSrc": "sex-05.png"
+          "imgSrc": "sex-05"
         },
         {
           "answer": "Adoro modelos diferentes e marcantes.",
           "type": "DRAMATICO",
-          "imgSrc": "sex-06.png"
+          "imgSrc": "sex-06"
         },
         {
           "answer": "Gosto de tecidos nobres, caimento e cortes perfeitos.",
           "type": "TRADICIONAL",
-          "imgSrc": "sex-07.png"
+          "imgSrc": "sex-07"
         }
       ]
     },
@@ -260,32 +260,32 @@
         {
           "answer": "Jóias verdadeira e sofisticadas.",
           "type": "ELEGANTE",
-          "imgSrc": "set-01.png"
+          "imgSrc": "set-01"
         },
         {
           "answer": "Peças coloridas com materiais diversificados.",
           "type": "CRIATIVO",
-          "imgSrc": "set-02.png"
+          "imgSrc": "set-02"
         },
         {
           "answer": "Colar de pérolas e outras peças clássicas.",
           "type": "TRADICIONAL",
-          "imgSrc": "set-03.png"
+          "imgSrc": "set-03"
         },
         {
           "answer": "Com design geométrico.",
           "type": "DRAMATICO",
-          "imgSrc": "set-04.png"
+          "imgSrc": "set-04"
         },
         {
           "answer": "Delicadas",
           "type": "ROMANTICO",
-          "imgSrc": "set-05.png"
+          "imgSrc": "set-05"
         },
         {
           "answer": "Brincos grandes chamativos.",
           "type": "SEXY",
-          "imgSrc": "set-06.png"
+          "imgSrc": "set-06"
         }
       ]
     },
@@ -297,37 +297,37 @@
         {
           "answer": "Roupas de boa qualidade, modelos clássicos e com cores neutras.",
           "type": "ELEGANTE",
-          "imgSrc": "oit-01.png"
+          "imgSrc": "oit-01"
         },
         {
           "answer": "Conforto e praticidade sempre.",
           "type": "ESPORTIVO",
-          "imgSrc": "oit-02.png"
+          "imgSrc": "oit-02"
         },
         {
           "answer": "Prefiro tons suaves e peças leves.",
           "type": "ROMANTICO",
-          "imgSrc": "oit-03.png"
+          "imgSrc": "oit-03"
         },
         {
           "answer": "Mesmo no trabalho gosto de manter minha identidade criativa.",
           "type": "CRIATIVO",
-          "imgSrc": "oit-04.png"
+          "imgSrc": "oit-04"
         },
         {
           "answer": "Gosto de transmitir uma imagem elegante e bem alinhada",
           "type": "TRADICIONAL",
-          "imgSrc": "oit-05.png"
+          "imgSrc": "oit-05"
         },
         {
           "answer": "Gosto de me sentir poderosa com peças que valorizem a minha beleza em qualquer ambiente.",
           "type": "SEXY",
-          "imgSrc": "oit-06.png"
+          "imgSrc": "oit-06"
         },
         {
           "answer": "Adoro transmitir uma imagem moderna.",
           "type": "DRAMATICO",
-          "imgSrc": "oit-07.png"
+          "imgSrc": "oit-07"
         }
       ]
     },
@@ -339,27 +339,27 @@
         {
           "answer": "AMPULHETA – As medidas de seu ombro e quadril são alinhados cintura fina.",
           "type": "AMPULHETA",
-          "imgSrc": "non-01.png"
+          "imgSrc": "non-01"
         },
         {
           "answer": "OVAL – As medidas da sua cintura é um pouco maior que o ombro e quadril, linhas do corpo arredondado.",
           "type": "OVAL",
-          "imgSrc": "non-02.png"
+          "imgSrc": "non-02"
         },
         {
           "answer": "RETANGULO - As medidas de seus Ombro, quadril e cintura tem a mesma largura. Corpo reto sem cintura definida.",
           "type": "RETANGULO",
-          "imgSrc": "non-03.png"
+          "imgSrc": "non-03"
         },
         {
           "answer": "TRINANGULO INVERTIDO - As medidas do seu ombro são um pouco mais largas que o quadril, cintura média.",
           "type": "TRIANGULO INVERTIDO",
-          "imgSrc": "non-04.png"
+          "imgSrc": "non-04"
         },
         {
           "answer": "TRIANGULO - As medidas do seu ombro são mais estreitas que o quadril, seios pequenos e quadril largo.",
           "type": "TRIANGULO",
-          "imgSrc": "non-05.png"
+          "imgSrc": "non-05"
         }
       ]
     },
@@ -371,37 +371,37 @@
         {
           "answer": "Sandálias de salto alto.",
           "type": "ELEGANTE",
-          "imgSrc": "dez-01.png"
+          "imgSrc": "dez-01"
         },
         {
           "answer": "Mule de salto.",
           "type": "TRADICIONAL",
-          "imgSrc": "dez-02.png"
+          "imgSrc": "dez-02"
         },
         {
           "answer": "Coloridos e diferenciados.",
           "type": "DRAMATICO",
-          "imgSrc": "dez-03.png"
+          "imgSrc": "dez-03"
         },
         {
           "answer": "Mocassim.",
           "type": "CRIATIVO",
-          "imgSrc": "dez-04.png"
+          "imgSrc": "dez-04"
         },
         {
           "answer": "Tênis.",
           "type": "ESPORTIVO",
-          "imgSrc": "dez-05.png"
+          "imgSrc": "dez-05"
         },
         {
           "answer": "Sapatilhas delicadas.",
           "type": "ROMANTICO",
-          "imgSrc": "dez-06.png"
+          "imgSrc": "dez-06"
         },
         {
           "answer": "Scarpins.",
           "type": "SEXY",
-          "imgSrc": "dez-07.png"
+          "imgSrc": "dez-07"
         }
       ]
     },
@@ -413,37 +413,37 @@
         {
           "answer": "Clássico",
           "type": "TRADICIONAL",
-          "imgSrc": "onz-01.png"
+          "imgSrc": "onz-01"
         },
         {
           "answer": "Natural",
           "type": "ESPORTIVO",
-          "imgSrc": "onz-02.png"
+          "imgSrc": "onz-02"
         },
         {
           "answer": "Elegante",
           "type": "ELEGANTE",
-          "imgSrc": "onz-03.png"
+          "imgSrc": "onz-03"
         },
         {
           "answer": "Romântico",
           "type": "ROMANTICO",
-          "imgSrc": "onz-04.png"
+          "imgSrc": "onz-04"
         },
         {
           "answer": "Glamurosa",
           "type": "SEXY",
-          "imgSrc": "onz-05.png"
+          "imgSrc": "onz-05"
         },
         {
           "answer": "Moderna dramática.",
           "type": "DRAMATICO",
-          "imgSrc": "onz-06.png"
+          "imgSrc": "onz-06"
         },
         {
           "answer": "Criativo.",
           "type": "CRIATIVO",
-          "imgSrc": "onz-07.png"
+          "imgSrc": "onz-07"
         }
       ]
     }
