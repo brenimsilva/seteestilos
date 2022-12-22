@@ -40,29 +40,31 @@ export default function StatsPage(props) {
         Você indicou ter outras preferencias de influência de outros estilos na
         proporção abaixo. E isso é o que te faz única.
       </h4>
-      <button
-        onClick={() => {
-          window.location.reload();
-        }}
-      >
-        Retornar a pagina inicial
-      </button>
+      <div className={style.buttons}>
+        <button
+          onClick={() => {
+            window.location.reload();
+          }}
+        >
+          Retornar a pagina inicial
+        </button>
 
-      {
-        //TESTE FACEBOOK
-      }
+        {
+          //TESTE FACEBOOK
+        }
 
-      <a
-        href={url.whatsapp}
-        data-action="share/whatsapp/share"
-        id={style.whatsapp}
-        target="_blank"
-      >
-        <i class="fa-brands fa-whatsapp"></i> Compartilhar
-      </a>
-      <a href={url.twitter} target="_blank" id={style.twitter}>
-        <i class="fa-brands fa-twitter"></i> Compartilhar
-      </a>
+        <a
+          href={url.whatsapp}
+          data-action="share/whatsapp/share"
+          id={style.whatsapp}
+          target="_blank"
+        >
+          <i class="fa-brands fa-whatsapp"></i> Compartilhar
+        </a>
+        <a href={url.twitter} target="_blank" id={style.twitter}>
+          <i class="fa-brands fa-twitter"></i> Compartilhar
+        </a>
+      </div>
     </div>
   );
 }

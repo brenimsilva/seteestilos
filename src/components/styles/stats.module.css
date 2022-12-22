@@ -29,13 +29,29 @@ a {
   background-color: #b6644b;
   color: white;
   text-decoration: none;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 #twitter {
   background-color: #00acee;
+  text-align: center;
 }
 
 #whatsapp {
   background-color: #25D366;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
