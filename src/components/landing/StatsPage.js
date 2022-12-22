@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import questions from "../DATA/questions.json";
 import style from "../styles/stats.module.css";
 
@@ -10,8 +10,18 @@ export default function StatsPage(props) {
   //props.mostVoted = Titulo (Romantico, Dramatico, Elegante);
   //styleText.text = legenda do estilo
   //styleText.list = array de itens que compoe o estilo
+  // https://twitter.com/intent/tweet?url=https://estilo.edineacorrea.com.br/&text=teste
 
-  console.log(styleText.list);
+  const msg = encodeURIComponent(
+    `Meu estilo é: *${props.mostVoted}* \n \n ${styleText.text} \n \n Descubra também o seu estilo: https://estilo.edineacorrea.com.br`
+  );
+  const prefix = `whatsapp://send?text=`;
+  const prefixTwitter = `https://twitter.com/intent/tweet?url=&text=`;
+  const [url, setUrl] = useState({
+    whatsapp: prefix + msg,
+    twitter: prefixTwitter + msg,
+  });
+
   return (
     <div className={style.container}>
       <h1 className={style.title}>
@@ -43,14 +53,15 @@ export default function StatsPage(props) {
       }
 
       <a
-        title="send to Facebook"
-        href={`http://www.facebook.com/sharer.php?s=100&p[title]=YOUR_TITLE&p[summary]=Seu estilo é: ${props.mostVoted} </br> ${styleText.text} </br> ${styleText.list}YOUR_SUMMARY&p[url]=YOUR_URL&p[images][0]=YOUR_IMAGE_TO_SHARE_OBJECT`}
+        href={url.whatsapp}
+        data-action="share/whatsapp/share"
+        id={style.whatsapp}
         target="_blank"
       >
-        <span>
-          <img width="14" height="14" src="'icons/fb.gif" alt="Facebook" />{" "}
-          Facebook
-        </span>
+        <i class="fa-brands fa-whatsapp"></i> Compartilhar
+      </a>
+      <a href={url.twitter} target="_blank" id={style.twitter}>
+        <i class="fa-brands fa-twitter"></i> Compartilhar
       </a>
     </div>
   );

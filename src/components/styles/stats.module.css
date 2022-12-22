@@ -17,3 +17,25 @@
 .estilo_negrito {
   font-weight: 700;
 }
+
+a {
+  border: none;
+  padding: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  cursor: pointer;
+  background-color: #b6644b;
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+#twitter {
+  background-color: #00acee;
+}
+
+#whatsapp {
+  background-color: #25D366;
+}
